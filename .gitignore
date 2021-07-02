@@ -1,0 +1,10 @@
+.idea
+*.pyc
+logs*
+*tar.gz
+__pycache__
+*.csv
+*.npy
+*.png
+*.zip
+tmp
