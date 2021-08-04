@@ -16,6 +16,13 @@ To install our package run
 pip install git+https://github.com/LucasFidon/label-set-loss-functions.git
 ```
 
+## Data
+The pre-trained models and the 40 3D MRIs of the [FeTA dataset][feta] (data release 1) with our corrected manual segmentations
+that we used for evaluation can be downloaded [here][zenodo].
+
+After downloading the folder ```\MICCAI21_partial_supervision_trained_models``` that contains the pre-trained models,
+please move the folder in ```fetal-brain-segmentation-partial-supervision-miccai21\data```.
+
 ## How to cite
 
 L. Fidon, M. Aertsen, D. Emam, N. Mufti, F. Guffens, T. Deprest, P. Demaerel, A. L. David, A. Melbourne, S. Ourselin, J. Deprest, T. Vercauteren.
@@ -33,3 +40,5 @@ Bibtex:
 }
 ```
 [arxiv]: https://arxiv.org/abs/2107.03846
+[zenodo]: https://zenodo.org/record/5148612#.YQqbHHWYVhF
+[feta]: https://zenodo.org/record/4541606#.YQqdpnWYU5k

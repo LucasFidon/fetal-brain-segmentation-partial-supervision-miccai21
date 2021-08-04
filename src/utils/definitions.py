@@ -24,8 +24,8 @@ LABELSET_MAP = {
 }
 
 # USEFUL PATHS
-REPO_PATH = '/workspace/DistributionallyRobustDeepLearning'
-ORI_ZURICH_DATA_DIR = os.path.join('/data', 'FetalDataZurich_Nov20')
+REPO_PATH = '/workspace/fetal-brain-segmentation-partial-supervision-miccai21'
+TRAINED_MODELS = os.path.join(REPO_PATH, 'data', 'MICCAI21_partial_supervision_trained_models')
 
 # Testing data
 CORRECTED_ZURICH_DATA_DIR = os.path.join(  # 40 cases
